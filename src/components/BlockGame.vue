@@ -92,7 +92,9 @@ onUnmounted(() => {
 
 <template>
   <div>
-    <canvas ref="canvasRef" width="800" height="800" style="border: 0.5px solid wheat"> </canvas>
+    <canvas ref="canvasRef" width="800" height="800" style="border: 0.5px solid wheat"
+      ><p>addaa</p>
+    </canvas>
     <div>
       <p>Health: {{ health }}</p>
     </div>
